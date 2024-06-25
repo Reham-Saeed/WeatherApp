@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/all.min.css" />
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <title>Weather</title>
+</head>
+
+<body>
+ 
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container p-3">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="logo">
+        <div class="d-inline-block logo-text align-middle ms-2">
+          <h1 class="h4 mb-0">Weather</h1>
+          <span class="fs-6 text-gray">tagline goes here</span>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0 gap-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" aria-current="page"
+              >Home
+              <span class="visually-hidden">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live cameras</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+   <div class="container py-5">
+    <div class="position-relative">
+      <input
+        type="text"
+        class="form-control rounded-5 p-3 border-0 text-white search-city"
+        name=""
+        id=""
+        aria-describedby="helpId"
+        placeholder="Find your location"
+      />
+      <button
+      type="button"
+      class="btn btn-primary rounded-5 px-5"
+      >
+      Find
+      </button>      
+      
+    </div>
+    <div class="table row rounded-4 mt-4">
+     
+    </div>
+   </div>    
+  </main>
+  <footer>
+    <div class="container py-5">
+     <div class="row mb-5">
+      <div class="position-relative col-lg-8">
+        <input
+          type="text"
+          class="form-control rounded-5 p-3 border-0"
+          name=""
+          id=""
+          aria-describedby="helpId"
+          placeholder="Enter your email to subscribe..."
+        />
+        <button
+        type="button"
+        class="btn btn-primary rounded-5 px-5 btn2"
+        >
+        Subscribe
+        </button>      
+      </div>
+      <div class="col-lg-4 social-icons d-flex justify-content-center gap-2 mt-4">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-google"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+     </div>
+     <span>Copyright 2014 Company name. Designed by Themezy. All rights reserved</span>
+    </div>
+  </footer>
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <script src="./JS/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    color: white !important;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #1e202b ;   
+}
+.text-gray{
+    color: #b1b1b2 !important;
+}
+.text-blue{
+
+    color: #009ad8 !important;
+}
+
+/*--------------- navbar -------------------- */
+nav,input{
+    background: #1e202b !important;
+}
+a.nav-link.active{
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8 !important;
+}
+a.nav-link{
+    color: white !important;
+    border: 2px solid transparent;  
+    border-radius: 30px;
+    padding: 5px 25px !important;
+    transition: 0.3s ease;
+}
+a.nav-link:hover{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+/*--------------------- main ----------------------*/
+input::placeholder{
+    color: grey !important;
+}
+button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;    
+    background-color:#009ad8;
+}
+main{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+.table{
+    background: #323544;
+}
+.header1{
+    background: rgba(0, 0, 0, 0.2);
+}
+.header2{
+    background: rgba(0, 0, 0, 0.1);
+}
+.header3{
+    background: rgba(0, 0, 0, 0.2);
+}
+.col2{
+    background: rgba(0, 0, 0, 0.1);   
+}
+sub{
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -0.5em;
+}
+.today-degree{
+    font-weight: 700;
+    font-size:90px;
+}
+
+/* -------------- footer -------------- */
+footer{
+    background:rgb(50, 53, 68,0.4);
+}
+.social-icons i {
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #009ad8 !important;
+    transition: 0.3s ease;
+}
+.social-icons i:hover{
+    background-color:#009ad8;
+    color: white !important;
+}
+span,div:not(.header1,.header2,.header3,.table,.col2){
+    background-color: transparent !important;
+}
+.btn2{
+    right: 17px;
+}
