@@ -23,7 +23,7 @@ async function realTimeWeather(){
   if (location === '') {
     location = await getUserLocation();
   }
-  var currentWeather=await fetch(`http://api.weatherapi.com/v1//forecast.json?key=08d360a2f9624f2293585810241706&q=${location}&days=3`);
+  var currentWeather=await fetch(`https://api.weatherapi.com/v1//forecast.json?key=08d360a2f9624f2293585810241706&q=${location}&days=3`);
   var result=await currentWeather.json();
   console.log(result.location.name)
   var date1 =new Date(result.forecast.forecastday[0].date)
