@@ -88,5 +88,4 @@ async function realTimeWeather(){
   </div>`
 document.querySelector('.table').innerHTML=content;
 };
-
 realTimeWeather();
